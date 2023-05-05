@@ -19,7 +19,7 @@ The following request creates a new custom ruleset:
 ---
 header: Request
 ---
-curl "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT_ID>/rulesets" \
+curl "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT_TAG>/rulesets" \
 -H "Authorization: Bearer <API_TOKEN>" \
 -d '{
   "name": "Custom Ruleset 1",
